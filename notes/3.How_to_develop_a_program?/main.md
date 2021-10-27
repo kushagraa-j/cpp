@@ -34,16 +34,19 @@ Coding is just a way of expressing yourself in a language. What really matters i
 # Coding
 
 Once you are thorough about what and how are you are going to code. Open up your editor, start coding and express yourself.
-A programming language is just like another language. It has syntax as grammar and spelling in a normal language.
+A programming language is just like another language. It has syntax as grammar and spelling in a normal language. Coding is not as hard 
+as it may seem. Enjoy the process, do it as computer were a person and you were talking to him.
 
 # Compiling
 
 Well, once you have coded the code must be compiled into machine code so that the hardware can execute it.
-This is done using a compiler.
+This is done using a compiler. 
 
 # Linking
 
 A linker is the piece of software which brings together all the required files mentioned inside the program.
+The linker also is capable of linking library files. A library file is a collection of precompiled code that has been 
+“packaged up” for reuse in other programs.
 
 # Test
 
