@@ -14,3 +14,19 @@ A function named “max” might contain statements that figures out which of tw
 A function named “calculateGrade” might calculate a student’s grade from a set of test scores. 
 
 The code of a function resides inside two curly braces {}.
+
+```cpp
+#include <iostream>
+
+
+// its return type is `int`
+int add_numbers(int x, int y) {  // it takes 2 arguments, they both have the type of `int` and their names are x and y
+    return x + y;  // it returns the sum of x + y
+}
+
+// its return type is `int`
+int main() {  // main is a function
+    std::cout << "1 + 5 = " << add_numvers(1, 5) << '\n';  // calls the add_numbers function with values 1 and 5
+    return 0;  // it returns the value of `0`
+}  // end the main function
+```
