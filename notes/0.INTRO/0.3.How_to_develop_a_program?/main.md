@@ -5,12 +5,13 @@ As we have started to learn programming we must know how to develop a useful pro
 # What
 
 Before all, you must know *what* you are gonna make. Its a really important question, if you dont know what you are coding for, then um,
-what are you even doing? Define your application of the program.
+what are you even doing? You must define your application of the program.
 
 Example:
 
 - I want to make a program which adds two numbers
 - I want to make a program to calculate my BMI
+- I want to make a program to provide me the map to heaven
 
 # How
 
@@ -34,8 +35,8 @@ Coding is just a way of expressing yourself in a language. What really matters i
 # Coding
 
 Once you are thorough about what and how are you are going to code. Open up your editor, start coding and express yourself.
-A programming language is just like another language. It has syntax as grammar and spelling in a normal language. Coding is not as hard 
-as it may seem. Enjoy the process, do it as computer were a person and you were talking to him.
+A programming language is just like another language. It has a certain syntax as we have grammar and spellings in a normal language. 
+Coding is not as hard as it may seem. Enjoy the process, do it as computer were a person and you were talking to him.
 
 # Compiling
 
@@ -48,8 +49,14 @@ A linker is the piece of software which brings together all the required files m
 The linker also is capable of linking library files. A library file is a collection of precompiled code that has been 
 “packaged up” for reuse in other programs.
 
+When you are creating a dish, do you create salt, vegetables and spices all by yourself? or you buy them from the market?
+Assume standard library as a market where you get the pre-written code, but in this case you dont have to pay.
+
 # Test
 
 Once everything is done and you have a executeable, go and execute your program and see if you got the desired output.
 If you havent, dont lose your heart, thats a part of being a programmer and its very common, go ahead and debug your code i.e
 see where the error lies, and what is stopping you to have a improper output.
+
+Dont you taste your dish, once its ready? um to check the salt? or just to see if its perfect? if its not up the makr you add the required stuff.
+Similar tradition is followed in programming to prevent blunders.

@@ -2,6 +2,10 @@
 Modern computers are really fast, though they have a contraint, 
 they are needed to be told *exactly* what to do from the certain set of commands they understand. 
 
+Assume your computer as a super intelligent but extremely freak kid who shall do whatever you say him to do, if you
+tell him exactly how. If you lay down the *exact* steps for this kid, on how to do jump from a 
+building, HE WILL. Thus the programmers are kid's i.e computers's care takers, who shall protect this kid from harming itself
+and utilise its potential to the fullest by communicating to it wisely.
 
 ## Programmming
 These set of instruction are called programs. These are often referred as apps or applications
