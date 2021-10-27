@@ -1,7 +1,6 @@
 # How to develop a program?
 
-As we have started to learn programming we must know how to program. Most of the poeple forget 
-this part and start coding.
+As we have started to learn programming we must know how to develop a useful program.
 
 # What
 
@@ -19,4 +18,35 @@ As you have figured out, what to program, the next step is obviously how to. We 
 It is also the step that is most neglected in software development. The crux of the issue is that there are many ways 
 to solve a problem -- however, some of these solutions are good and some of them are bad. Too often, a programmer will 
 get an idea, sit down, and immediately start coding a solution. This often generates a solution that falls into the bad 
-category.
+category.Typically, good solutions have the following characteristics:
+
+- They are straightforward (not overly complicated or confusing).
+- They are well documented (especially around any assumptions being made or limitations).
+- They are built modularly, so parts can be reused or changed later without impacting other parts of the program.
+- They are robust, and can recover or give useful error messages when something unexpected happens.
+
+Before coding, you can create a *pseudocode*,In computer science, pseudocode is a plain language description of the steps in an 
+program. Pseudocode often uses structural conventions of a normal programming language, but is intended for human reading rather 
+than machine reading. You can lay down how to program shall run in your own language making it easier to code. 
+
+Coding is just a way of expressing yourself in a language. What really matters is what you are trying to express.
+
+# Coding
+
+Once you are thorough about what and how are you are going to code. Open up your editor, start coding and express yourself.
+A programming language is just like another language. It has syntax as grammar and spelling in a normal language.
+
+# Compiling
+
+Well, once you have coded the code must be compiled into machine code so that the hardware can execute it.
+This is done using a compiler.
+
+# Linking
+
+A linker is the piece of software which brings together all the required files mentioned inside the program.
+
+# Test
+
+Once everything is done and you have a executeable, go and execute your program and see if you got the desired output.
+If you havent, dont lose your heart, thats a part of being a programmer and its very common, go ahead and debug your code i.e
+see where the error lies, and what is stopping you to have a improper output.
