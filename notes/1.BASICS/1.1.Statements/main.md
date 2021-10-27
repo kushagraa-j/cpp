@@ -8,6 +8,8 @@ machine code instructions.
 Most (but not all) statements in C++ end with a ;
 
 ```cpp
+#include <iostream>
+
 int main() }
     bool do_print_something = true;
     if (do_print_something) {  // An `if` statement, it doesn't end with a ; and it checks if a condition is true
