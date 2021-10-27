@@ -26,7 +26,7 @@ int add_numbers(int x, int y) {                         // it takes 2 arguments,
 
 // its return type is `int`
 int main() {                                               // main is a function
-    std::cout << "1 + 5 = " << add_numvers(1, 5) << '\n';  // calls the add_numbers function with values 1 and 5
+    std::cout << "1 + 5 = " << add_numbers(1, 5) << '\n';  // calls the add_numbers function with values 1 and 5
     return 0;                                              // it returns the value of `0`
 }                                                          // end the main function
 ```
