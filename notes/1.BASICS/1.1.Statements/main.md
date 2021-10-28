@@ -11,7 +11,8 @@ Most (but not all) statements in C++ end with a ;
 #include <iostream>
 
 int main() {                              // Main function
-    bool something = true;                // A simple statemend ending with ;
+
+    bool something = true;                // A simple statement ending with ;
 
     if (something) {                      // An `if` statement, it doesn't end with a ; and it executes statments if argument is true
         std::cout << "Something" << '\n';
