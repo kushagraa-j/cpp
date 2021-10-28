@@ -13,14 +13,14 @@ When the program is run, the statements inside of main are executed in sequentia
 - A function named “max” might contain statements that figures out which of two numbers is larger. 
 - A function named “calculateGrade” might calculate a student’s grade from a set of test scores. 
 
-The code of a function resides inside two curly braces {}.
-
 Structure of a function:
 
 ```cpp
-<return type> <name>( <arg1> , <arg2 , ...) {
+<return-type> <name>( <arg1> , <arg2 , ...) {
 	<statments>
 }
+
+Whatever which shall reside inside the two braces, shall execute in a sequential order.
 
 ```
 
