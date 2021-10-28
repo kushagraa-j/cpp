@@ -17,12 +17,13 @@ The code of a function resides inside two curly braces {}.
 
 Structure of a function:
 
-``cpp
+```cpp
 <return type> <name>( <arg1> , <arg2 , ...) {
 	<statments>
 }
 
 ```
+
 Lets take examples of functions in working code,
 
 ```cpp
