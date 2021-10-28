@@ -21,7 +21,7 @@ Structure of a function:
 }
 
 ```
-Whatever which shall reside inside the two braces, shall execute in a sequential order.
+Whatever statements which shall reside inside the two braces {}, shall execute in a sequential order.
 Lets take examples of functions in working code,
 
 ```cpp
