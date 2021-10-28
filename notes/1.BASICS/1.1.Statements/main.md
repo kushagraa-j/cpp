@@ -14,7 +14,8 @@ int main() {                              // Main function
 
     bool something = true;                // A simple statement ending with ;
 
-    if (something) {                      // An `if` statement, it doesn't end with a ; and it executes statments if argument is true
+    if (something) {                      // An `if` statement, it doesn't end with a ; 
+    					  // and it executes statments if argument is true
         std::cout << "Something" << '\n';
     } 
 
@@ -22,6 +23,6 @@ int main() {                              // Main function
         std::cout << "Not something" << '\n';
     }
     
-    return 0;  // Returns the code 0, `return` is also a statement
+    return 0;                             // Returns the code 0, `return` is also a statement
 }
 ```
