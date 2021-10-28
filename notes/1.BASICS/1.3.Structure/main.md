@@ -2,7 +2,7 @@
 
 In this part we will talk about the basic structure of a c++ program, now that you know what is a statement and a functiion.
 
-```
+```cpp
 #include<iostream>              \\ include files from library
 #include<my.h>                  \\ include local personal files
 
@@ -20,3 +20,7 @@ int main{
 	return 0;
 
 }
+```
+
+Only the statements inside the main function shall be executed. The statements of 
+yourfucnname fuction will not be executed unless its called inside main function.
