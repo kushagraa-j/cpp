@@ -20,10 +20,8 @@ Structure of a function:
 	<statments>
 }
 
-Whatever which shall reside inside the two braces, shall execute in a sequential order.
-
 ```
-
+Whatever which shall reside inside the two braces, shall execute in a sequential order.
 Lets take examples of functions in working code,
 
 ```cpp
