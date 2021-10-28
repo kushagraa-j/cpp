@@ -18,7 +18,6 @@ The code of a function resides inside two curly braces {}.
 ```cpp
 #include <iostream>
 
-
 // its return type is `int`
 int add_numbers(int x, int y) {                         // it takes 2 arguments, they both have the type of `int` and their names are x and y
     return x + y;                                       // it returns the sum of x + y
@@ -30,3 +29,5 @@ int main() {                                               // main is a function
     return 0;                                              // it returns the value of `0`
 }                                                          // end the main function
 ```
+
+Dont get overwhelmed with these pieces of code, they are just for the mere purpose of exmaples.
