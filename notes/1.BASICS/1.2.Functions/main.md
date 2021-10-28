@@ -15,7 +15,7 @@ When the program is run, the statements inside of main are executed in sequentia
 
 Structure of a function:
 
-```cpp
+```
 <return-type> <name>( <arg1> , <arg2 , ...) {
 	<statments>
 }
