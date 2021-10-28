@@ -41,7 +41,7 @@ Coding is not as hard as it may seem. Enjoy the process, do it as computer were 
 # Compiling
 
 Well, once you have coded the code must be compiled into machine code so that the hardware can execute it.
-This is done using a compiler. 
+This is done using a compiler. You can assume compiler as a translater between you and the computer.
 
 # Linking
 
