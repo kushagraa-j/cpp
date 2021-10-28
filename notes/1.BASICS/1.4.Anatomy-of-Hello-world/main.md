@@ -24,7 +24,7 @@ Its return type is integer, try using return type as void and remove the return 
 
 Line 4: The main function starts here.
 
-Line 5: std::cout (which stands for “character/console output”) and the << (extract) operator 
+Line 5: std::cout (which stands for “character/console output”) and the << operator 
 allow us to send letters or numbers to the console to be output. In this case, we’re sending 
 it the text “Hello world!”, which will be output to the console. This statement creates the 
 visible output of the program.
