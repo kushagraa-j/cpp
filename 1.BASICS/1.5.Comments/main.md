@@ -15,8 +15,7 @@ the same purpose: to help programmers document the code in some way.
 the line after this symbol is used.
 
 ```cpp
-std::cout << "Let's use comments in C++"; // Everything from here to 
-the end of the line is ignored
+std::cout << "Let's use comments in C++"; // Everything from here to the end of the line is ignored
 ```
 ## Multi line comments
 
