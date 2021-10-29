@@ -22,7 +22,7 @@ std::cout << "Let's use comments in C++"; // Everything from here to the end of 
 A pair of symbols `/*` and `*/` is used, in which `/*` denotes the start and
 `*/` denotes the end.
 
-``cpp
+```cpp
 /* 
    This is a multi-line comment.
    This line will be ignored.
