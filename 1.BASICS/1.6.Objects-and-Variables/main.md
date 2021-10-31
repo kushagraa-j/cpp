@@ -4,17 +4,16 @@ In this part, we shall see what is data, object, variable and how one can use va
 
 ## Data
 Anything that can be processed, moves and stored by a computer is data. This data can be from anwywhere, the internet or the user himself.
-
 Programs are collections of instructions that manipulate data to produce a desired result.
 
 ## Objects
 
 Assume RAM as a big storage godown with a lot of boxes. Some of these boxes are empty and some are filled. Data of a single box is called *value*.
-How can we access these boxes? Well, you cant directly. But indirectly you can use them with the help of objects. You can think of the stuff inside the box
+How can we access these boxes? Well, you cant directly. But indirectly you can use them with the help of *objects*. You can think of the stuff inside the box
 as value and the box as a whole itself as an object.
 
 Objects can be named or unnamed (anonymous). A named object is called a variable, and the name of the object is called an identifier. 
-In our programs, most of the objects we create and use will be variables.)
+In our programs, most of the objects we create and use will be *variables*.
 
 ## Variables
 
@@ -25,12 +24,13 @@ How can we create variables?
 ```
 
 Yes, that's it, this is how you define a variable.
-You can think of definition as putting the name of the variable on the box, but not changin the 
+You can think of definition as putting the name of the variable on the box, but not changing the 
 stuff inside.
 
 Two variables of the same type can be defined together,
 ```cpp
 int a,b;
+```
 
 ```cpp
 int a_variable;
