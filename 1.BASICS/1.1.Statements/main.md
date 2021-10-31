@@ -16,7 +16,7 @@ int main() {                                   // Main function (will talk about
 
     bool something = true;                     // A simple statement ending with ;
 
-    if (something) {                           // An `if` statement, it doesn't end with a ; 
+    if (something) {                           // An `if` statement, it doesn't end with a ;
         std::cout << "Something" << '\n';      // and it executes statments if argument is true
     } 
 
