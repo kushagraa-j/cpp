@@ -27,13 +27,13 @@ Yes, that's it, this is how you define a variable.
 You can think of definition as putting the name of the variable on the box, but not changing the 
 stuff inside.
 
+```cpp
+int a_variable;
+```
+
 Two variables of the same type can be defined together,
 ```cpp
 int a,b;
-```
-
-```cpp
-int a_variable;
 ```
 
 This is how you can define a variable of the name a_variable of type integer.
