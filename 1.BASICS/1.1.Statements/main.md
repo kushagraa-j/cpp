@@ -12,18 +12,30 @@ Lets see examples of statements in a working C++ code,
 ```cpp
 #include <iostream>
 
+
 int main() {                                   // Main function (will talk about functions in 1.2)
 
+
+
     bool something = true;                     // A simple statement ending with ;
+
+
 
     if (something) {                           // An `if` statement, it doesn't end with a ;
         std::cout << "Something" << '\n';      // and it executes statments if argument is true
     } 
 
+
+
+
     else {                                     // `Else` is an optional statement on top of `if`, also doesn't end with a ;
         std::cout << "Not something" << '\n';
     }
+
+
     
     return 0;                                 // Returns the code 0, `return` is also a statement
+
+
 }
 ```
