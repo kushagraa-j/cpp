@@ -40,7 +40,8 @@ int a,b;
 ## Data types
 
 In the last example we saw a integer variable, but we have more data types in cpp.
-A data type (more commonly just called a type) tells the compiler what type of value (e.g. a number, a letter, text, etc…) the variable will store.))
+A data type (more commonly just called a type) tells the compiler what type of value (e.g. a number, a letter, text, etc…) the variable will store.
+Think of data types as different kinds of boxes.
 
 ```cpp
 letter = char
