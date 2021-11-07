@@ -16,7 +16,7 @@ age = 20;         \\ changed the value of age to 20, using copy assignment
 Copy assignment is named such because it copies the value on the right-hand side of the = operator to the variable on the 
 left-hand side of the operator. The = operator is called the assignment operator.
 
-# Initialisation 
+## Initialisation 
 
 One downside of assignment is that it requires at least two statements: one to define the variable, and one to assign the value.
 We can replace these two statments, with one. 
@@ -41,3 +41,17 @@ copy and direct, they narrow it to 4.
 Initialize your variables upon creation. You may eventually find cases where you want to ignore this advice for a specific reason 
 (e.g. a performance critical section of code that uses a lot of variables), and that’s okay, as long the choice is made deliberately.
 
+## Intialising multiple variables together
+
+```cpp
+int a = 5, b = 6;  // copy initialization
+int c (7), d(8);   // direct initialization
+int e {9}, f {10}; // brace initialization (preferred)
+```
+
+Unfortunately, there’s a common pitfall here that can occur when the programmer mistakenly tries to initialize both variables by using one initialization statement:
+
+```cpp
+int a, b = 5; // wrong (a is not initialized!)
+int a = 5, b = 5; // correct
+```
