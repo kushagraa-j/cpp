@@ -34,6 +34,10 @@ int c (6);   // initializer in parenthesis     -> direct initialisation
 int d {7};   // initializer in braces          -> brace initialisation
 ```
 
-You should prefer brace initialisation also called uniform initialisation as it supports more data types and
-has benefits like disallowing “narrowing” conversions. That means you cant put 4.3 in a integer using braces, as you can inside
+You should prefer brace initialisation also called uniform initialisation as it supports more data types unlike the others and
+has benefits like being more effecient and disallowing “narrowing” conversions. That means you cant put 4.3 in a integer using braces, as you can inside
 copy and direct, they narrow it to 4.
+
+Initialize your variables upon creation. You may eventually find cases where you want to ignore this advice for a specific reason 
+(e.g. a performance critical section of code that uses a lot of variables), and that’s okay, as long the choice is made deliberately.
+
