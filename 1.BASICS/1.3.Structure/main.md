@@ -1,6 +1,6 @@
 # Structure
 
-In this part we will talk about the basic structure of a c++ program, now that you know what is a statement and a functiion.
+In this part we will talk about the basic structure of a c++ program, now that you know what is a statement and a function.
 
 ```cpp
 #include<iostream>              // include files from library

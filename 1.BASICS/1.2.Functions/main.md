@@ -39,4 +39,4 @@ int main() {                                                 // main is a functi
 }                                                            // end the main function
 ```
 
-Dont get overwhelmed with these pieces of code, they are just for the mere purpose of exmaples.
+Dont get overwhelmed with these pieces of code, they are just for the mere purpose of examples.
