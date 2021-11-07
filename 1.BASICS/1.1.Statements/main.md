@@ -37,5 +37,5 @@ int main() {                                   // Main function (will talk about
     return 0;                                 // Returns the code 0, `return` is also a statement
 
 
-}
+}                                             // Main func ends
 ```
