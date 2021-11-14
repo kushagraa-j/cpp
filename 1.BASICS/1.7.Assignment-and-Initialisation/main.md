@@ -28,10 +28,10 @@ int age = 23;     \\ Initialised age to 23
 There are 4 basic ways to initialize variables in C++:
 
 ```cpp
-int a;       // no initializer
-int b = 5;   // initializer after equals sign  -> copy initialisation
-int c (6);   // initializer in parenthesis     -> direct initialisation 
-int d {7};   // initializer in braces          -> brace initialisation
+int apple;       // no initializer
+int banana = 5;   // initializer after equals sign  -> copy initialisation
+int cherry (6);   // initializer in parenthesis     -> direct initialisation 
+int dragonfruit {7};   // initializer in braces          -> brace initialisation
 ```
 
 You should prefer brace initialisation also called uniform initialisation as it supports more data types unlike the others and
@@ -44,9 +44,9 @@ Initialize your variables upon creation. You may eventually find cases where you
 ## Intialising multiple variables together
 
 ```cpp
-int a = 5, b = 6;  // copy initialization
-int c (7), d(8);   // direct initialization
-int e {9}, f {10}; // brace initialization (preferred)
+int apple = 5, banana = 6;  // copy initialization
+int cherry (7), dragonfruit(8);   // direct initialization
+int ew {9}, fuck {10}; // brace initialization (preferred)
 ```
 
 Unfortunately, there’s a common pitfall here that can occur when the programmer mistakenly tries to initialize both variables by using one initialization statement:
