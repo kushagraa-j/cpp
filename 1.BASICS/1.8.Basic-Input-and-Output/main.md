@@ -17,7 +17,7 @@ Cout is of the namespace std, so we must prepend it with std:: , we will talk mo
 For now just remember that std is company of which cout is a product imported to your country by iostream.
 We must reffer cout as std::cout as you would say for a mobile (Xiaomi:Note10).
 
-Lets see how we can use cout,
+Lets see how we can use cout:
 
 ```cpp
 #include <iostream>
@@ -26,5 +26,18 @@ int main {
 	std:cout << "My life sucks!"
 	return 0;
 }
+```
 
-This code should output "My life sucks!"
+This code should output "My life sucks!",
+Lets see another with a variable:
+
+```cpp
+#include <iostream>
+
+int main{
+	int truth {1};
+	std::cout << num ;
+	return 0;
+}
+```
+This should just give you 1.
