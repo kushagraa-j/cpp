@@ -43,4 +43,3 @@ int main{
 
 OUTPUT: 1
 ```
-This should just give you 1.
