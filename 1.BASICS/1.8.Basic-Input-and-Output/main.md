@@ -26,9 +26,10 @@ int main {
 	std:cout << "My life sucks!"
 	return 0;
 }
+
+OUTPUT: My life sucks!
 ```
 
-This code should output "My life sucks!",
 Lets see another with a variable:
 
 ```cpp
@@ -39,5 +40,7 @@ int main{
 	std::cout << num ;
 	return 0;
 }
+
+OUTPUT: 1
 ```
 This should just give you 1.
