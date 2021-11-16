@@ -35,7 +35,7 @@ Lets see another with a variable:
 #include <iostream>
 
 int main{
-	int truth {1};
+	int num {1};
 	std::cout << num ;
 	return 0;
 }
