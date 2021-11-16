@@ -43,3 +43,4 @@ int main{
 
 OUTPUT: 1
 ```
+You can do a lot with cout alone, go ahead and play around heh
