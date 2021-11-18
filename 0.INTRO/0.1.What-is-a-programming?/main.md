@@ -1,4 +1,5 @@
 # What is a programming language?
+
 Modern computers are really fast, though they have a contraint, 
 they are needed to be told *exactly* what to do from the certain set of commands they understand. 
 
