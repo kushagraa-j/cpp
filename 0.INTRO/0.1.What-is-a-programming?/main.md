@@ -3,7 +3,8 @@ Modern computers are really fast, though they have a contraint,
 they are needed to be told *exactly* what to do from the certain set of commands they understand. 
 
 You need to really elaborate about what you are trying to do for your computer to understand.
-This might help you understand what i mean by exact instructions: [Youtube video](https://www.youtube.com/watch?v=Ct-lOOUqmyY)
+
+This might help you understand what i mean by exact instructions: [video](https://www.youtube.com/watch?v=Ct-lOOUqmyY)
 
 ## Programmming
 These set of instruction are called programs. These are often referred as apps or applications
