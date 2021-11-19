@@ -57,12 +57,17 @@ Let's see a example:
 
 int main(){
 
-	int num {};
+	int num ;
 	
 	std::cout << "Enter a number:" ;
-	std::cin  << num ;
-	std::cout << "\nYou entered" << num ;
+	std::cin  << num{} ;
+	std::cout << "\nYou entered" << num ;   // \n creates a newline
 	
 	return 0;
 }
+
+OUTPUT:
+
+Enter a number:99
+You entered 99
 ```
