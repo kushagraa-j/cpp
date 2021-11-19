@@ -44,3 +44,25 @@ int main{
 OUTPUT: 1
 ```
 You can do a lot with cout alone, go ahead and play around heh
+
+## cin
+
+cin is another predefined variable that is defined in the iostream library. Whereas std::cout prints data to the console using the insertion operator (<<), 
+std::cin (which stands for “character input”) reads input from keyboard using the extraction operator (>>). The input must be stored in a variable to be used.
+
+Let's see a example:
+
+```cpp
+#include<iostream>
+
+int main(){
+
+	int num {};
+	
+	std::cout << "Enter a number:" ;
+	std::cin  << num ;
+	std::cout << "\nYou entered" << num ;
+	
+	return 0;
+}
+```
