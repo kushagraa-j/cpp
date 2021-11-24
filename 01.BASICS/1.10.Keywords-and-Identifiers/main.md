@@ -243,6 +243,8 @@ int my function name(); // invalid (whitespace not allowed)
 int MyVariableName; // valid but incorrect (should start with lower case letter)
 int MyFunctionName(); // valid but incorrect (should start with lower case letter)
 ```
+- Names should be descriptive and self explanatory, and not something that makes no sense to you when you
+see you code later or rather show it to someone else.
 
 ```
 int ccount	        Bad		What does the c before “count” stand for?
