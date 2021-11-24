@@ -1,5 +1,9 @@
 # Keywords and Identifiers
 
+In this section we will talk about the distiction in keywords and identifiers in C++
+
+## Keywords
+
 C++ reserves a set of 92 words (as of C++20) for its own use. These words are called keywords (or reserved words), 
 and each of these keywords has a special meaning within the C++ language.
 
@@ -203,12 +207,16 @@ xor
 xor_eq 
 ```
 
-Its a long list indeed. Identifers cant be named after any of these keywords. Identifiers are all the names that you shall give to 
+Its a long list indeed. 
+
+## Identifeirs
+
+Identifers cant be named after any of these keywords. Identifiers are all the names that you shall give to 
 user defined  variables, functions, classes  etc.
 
-Let's see some rules for naming your indentifers
+Let's see some rules for naming your indentifers:
 
-First, it is a convention in C++ that variable names should begin with a lowercase letter. If the variable name is one word, the whole thing should be written in 
+- First, it is a convention in C++ that variable names should begin with a lowercase letter. If the variable name is one word, the whole thing should be written in 
 lowercase letters.
 
 ```cpp
@@ -219,7 +227,8 @@ int VALUE; // incorrect (should start with lower case letter)
 ```
 
 But its just a convention so um, do what you feel like.
-If a name is more than a single word we can use underscores or change case
+
+- If a name is more than a single word we can use underscores or change case
 
 ```cpp
 int my_variable_name; // correct (separated by underscores/snake_case)
