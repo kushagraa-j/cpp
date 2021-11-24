@@ -5,4 +5,4 @@ and each of these keywords has a special meaning within the C++ language.
 
 Here is a list of C++ reserved keywords:
 
-![](main.jpg)
+<img src=main.jpg height=200px>
