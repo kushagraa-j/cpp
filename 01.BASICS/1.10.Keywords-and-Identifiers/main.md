@@ -246,7 +246,7 @@ int MyFunctionName(); // valid but incorrect (should start with lower case lette
 - Names should be descriptive and self explanatory, and not something that makes no sense to you when you
 see you code later or rather show it to someone else.
 
-```
+```cpp
 int ccount	        Bad		What does the c before “count” stand for?
 int customerCount       Good		Clear what we’re counting
 int i	                Either		Okay if use is trivial, bad otherwise
