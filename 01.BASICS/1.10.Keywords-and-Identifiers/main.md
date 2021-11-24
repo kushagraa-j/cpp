@@ -110,7 +110,7 @@ xor
 xor_eq 
 ```
 
-Its a long list indeed. 
+Its a long list indeed and we shall learn their use cases soon.
 
 ## Identifeirs
 
