@@ -6,6 +6,7 @@ and each of these keywords has a special meaning within the C++ language.
 Here is a list of C++ reserved keywords:
 
 
+```cpp
 alignas (since C++11)
 
 alignof (since C++11)
@@ -200,6 +201,7 @@ while
 xor
 
 xor_eq 
+```
 
 Its a long list indeed. Identifers cant be named after any of these keywords. Identifiers are all the names that you shall give to 
 user defined  variables, functions, classes  etc.
