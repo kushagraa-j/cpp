@@ -2,7 +2,7 @@
 
 As we have started to learn programming we must know how to develop a useful program.
 
-# What
+## What
 
 Before all, you must know *what* you are gonna make. Its a really important question, if you dont know what you are coding for, then um,
 what are you even doing? You must define your application of the program.
@@ -13,7 +13,7 @@ Example:
 - I want to make a program to calculate my BMI
 - I want to make a program to provide me the map to heaven
 
-# How
+## How
 
 As you have figured out, what to program, the next step is obviously how to. We havent reached the coding part yet.
 It is also the step that is most neglected in software development. The crux of the issue is that there are many ways 
@@ -32,18 +32,18 @@ than machine reading. You can lay down how to program shall run in your own lang
 
 Coding is just a way of expressing yourself in a language. What really matters is what you are trying to express.
 
-# Coding
+## Coding
 
 Once you are thorough about what and how are you are going to code. Open up your editor, start coding and express yourself.
 A programming language is just like another language. It has a certain syntax as we have grammar and spellings in a normal language. 
 Coding is not as hard as it may seem. Enjoy the process, do it as computer were a person and you were talking to him.
 
-# Compiling
+## Compiling
 
 Well, once you have coded the code must be compiled into machine code so that the hardware can execute it.
 This is done using a compiler. You can assume compiler as a translater between you and the computer.
 
-# Linking
+## Linking
 
 A linker is the piece of software which brings together all the required files mentioned inside the program.
 The linker also is capable of linking library files. A library file is a collection of precompiled code that has been 
@@ -52,7 +52,7 @@ The linker also is capable of linking library files. A library file is a collect
 When you are creating a dish, do you create salt, vegetables and spices all by yourself? or you buy them from the market?
 Assume standard library as a market where you get the pre-written code, but in this case you dont have to pay.
 
-# Test
+## Test
 
 Once everything is done and you have a executeable, go and execute your program and see if you got the desired output.
 If you havent, dont lose your heart, thats a part of being a programmer and its very common, go ahead and debug your code i.e
