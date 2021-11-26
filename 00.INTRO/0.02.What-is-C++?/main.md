@@ -1,6 +1,6 @@
 # What is C++
 
-# Before C++ there was C
+## Before C++ there was C
 
 The C language was developed in 1972 by Dennis Ritchie at Bell Telephone laboratories, 
 primarily as a systems programming language (a language to write operating systems with). 
