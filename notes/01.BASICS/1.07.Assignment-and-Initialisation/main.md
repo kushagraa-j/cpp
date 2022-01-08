@@ -28,10 +28,10 @@ int age = 23;     \\ Initialised age to 23
 There are 4 basic ways to initialize variables in C++:
 
 ```cpp
-int apple;       // no initializer
-int banana = 5;   // initializer after equals sign  -> copy initialisation
-int cherry (6);   // initializer in parenthesis     -> direct initialisation 
-int dragonfruit {7};   // initializer in braces          -> brace initialisation
+int apple;        // no initializer
+int banana = 5;   // initializer after equals sign     -> copy initialisation
+int cherry (6);   // initializer in parenthesis        -> direct initialisation 
+int dragonfruit {7};   // initializer in braces        -> brace initialisation
 ```
 
 You should prefer brace initialisation also called uniform initialisation as it supports more data types unlike the others and
