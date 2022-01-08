@@ -1,4 +1,3 @@
-#include<string>
 #include<iostream>
 
 void result(int faceOfCoin , int userChoice)
