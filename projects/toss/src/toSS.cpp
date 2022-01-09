@@ -3,6 +3,11 @@
 
 int main()
 {
+
+		#ifdef DEBUG
+			std::cout << "\n  Entered main();" ;
+		#endif
+
 	std::cout << "\n"
 		     "  This program provides you with a functionality of doing a toss digitally"
 		     "\n"
@@ -12,7 +17,7 @@ int main()
 		     "  To choose Tails: 1"
 		     "\n" 
 		     "\n" ;
-	
+
 	int userChoice {inputFromUser(userChoice , "your choice")};
 	int faceOfCoin {randomNumPls()};
 

@@ -1,6 +1,11 @@
 #include<iostream>
 
 void faceOfCoinInWords(int num){
+
+		#ifdef DEBUG
+			std::cout << "  Entered faceOfCoinInWords();\n" ;
+		#endif
+
 	if (num == 0) {
 		std::cout << "  It was Heads\n";	
 	}
@@ -13,6 +18,10 @@ void faceOfCoinInWords(int num){
 
 void result(int faceOfCoin , int userChoice)
 {
+		#ifdef DEBUG
+			std::cout << "  Entered result();\n" ;
+		#endif
+
 	if (userChoice != 0 && userChoice != 1) 
 	{
 		std::cout << "  Invalid Input" ;
