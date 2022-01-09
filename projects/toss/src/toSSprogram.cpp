@@ -1,5 +1,8 @@
 #include<iostream>
-#include"main.hpp"
+#include"headers/input.hpp"
+#include"headers/random.hpp"
+#include"headers/result.hpp" 
+#include"headers/debug.hpp"
 
 int main()
 {
@@ -8,23 +11,16 @@ int main()
 			std::cout << "\n  Entered main();" ;
 		#endif
 
-	std::cout << "\n"
-		     "  This program provides you with a functionality of doing a toss digitally"
-		     "\n"
-		     "\n"
-		     "  To choose Heads: 0"
-		     "\n"
-		     "  To choose Tails: 1"
-		     "\n" 
-		     "\n" ;
+	instructions();
 
 	int userChoice {inputFromUser(userChoice , "your choice")};
 	int faceOfCoin {randomNumPls()};
 
-	std::cout << "\n" ;
 	result(faceOfCoin,userChoice);
-	std::cout << "\n" ;
-	std::cout << "\n" ;
+
+		#ifdef DEBUG
+			std::cout << "  main() ended;\n\n" ;
+		#endif
 	
 	return 0;
 }

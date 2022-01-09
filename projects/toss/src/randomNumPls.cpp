@@ -1,5 +1,6 @@
 #include<cstdlib>
 #include<time.h>
+#include"headers/debug.hpp"
 
 	#ifdef DEBUG
 		#include<iostream>

@@ -1,4 +1,5 @@
 #include<iostream>
+#include"headers/debug.hpp"
 
 void faceOfCoinInWords(int num){
 
@@ -14,33 +15,39 @@ void faceOfCoinInWords(int num){
 	{
 		std::cout << "  It was Tails\n";	
 	}
+
+		#ifdef DEBUG
+			std::cout << "  faceOfCoinInWords() ended;\n" ;
+		#endif
 }
 
 void result(int faceOfCoin , int userChoice)
 {
+	std::cout << "\n" ;
+
 		#ifdef DEBUG
 			std::cout << "  Entered result();\n" ;
 		#endif
 
-	if (userChoice != 0 && userChoice != 1) 
-	{
-		std::cout << "  Invalid Input" ;
-	}
 	
+	if (faceOfCoin == userChoice) 
+	{
+		faceOfCoinInWords(faceOfCoin);
+		std::cout << "  You Won!";
+	}
+
 	else
 	{
-		if (faceOfCoin == userChoice) 
-		{
-			faceOfCoinInWords(faceOfCoin);
-			std::cout << "  You Won!";
-		}
-
-		else
-		{
-			faceOfCoinInWords(faceOfCoin);
-			std::cout << "  You lost!";
-		}
-
+		faceOfCoinInWords(faceOfCoin);
+		std::cout << "  You lost!";
 	}
+
+
+		#ifdef DEBUG
+			std::cout << "\n  result() ended;" ;
+		#endif
+
+	std::cout << "\n" ;
+	std::cout << "\n" ;
 
 }
