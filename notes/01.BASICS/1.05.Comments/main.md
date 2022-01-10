@@ -54,7 +54,7 @@ Generally there are 3-4 kinds of commenting.
 ```
 
 ```cpp
-This function takes input from user and then returns the value.
+// This function takes input from user and then returns the value.
 ```
 
 ### Describe how
@@ -66,11 +66,13 @@ This function takes input from user and then returns the value.
 ```
 
 ```cpp
-To find the roots of these quadratic equations, we use the quadratic formula (Sridharacharya Formula).
+// To find the roots of these quadratic equations, 
+// we use the quadratic formula (Sridharacharya Formula).
 ```
 
 ```cpp
-To generate a random number, we hav used the stdlib and used the rand() function
+// To generate a random number, 
+// we hav used the stdlib and used the rand() function
 ```
 
 ### Describe why
@@ -88,7 +90,7 @@ cost = quantity * 2 * storePrice;
 ### Decribe what (BAD comments)
 
 ```cpp
-range = 0;	// We set the range to 0
+// range = 0;	// We set the range to 0
 ```
 
 ```cpp
