@@ -17,6 +17,7 @@ int randomNumPls()
 
 		#ifdef DEBUG
 			std::cout << "  Random Number:" << num << "\n";
+			std::cout << "  Exited randomNumPls();\n\n";
 		#endif
 
 	return num;

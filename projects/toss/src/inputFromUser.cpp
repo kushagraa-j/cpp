@@ -4,6 +4,10 @@
 
 void instructions()
 {
+		#ifdef DEBUG
+			std::cout << "\n\n  Entered instructions();\n\n";
+		#endif
+
 	std::cout << "\n"
 		     "  This program provides you with a functionality of doing a toss digitally"
 		     "\n"
@@ -14,12 +18,15 @@ void instructions()
 		     "\n" 
 		     "\n" ;
 
+		#ifdef DEBUG
+			std::cout << "  Exited instructions();\n";
+		#endif
 }
 
 int inputFromUser(int value, std::string what) 
 {
 		#ifdef DEBUG
-			std::cout << "  Entered inputFromUser();\n";
+			std::cout << "\n  Entered inputFromUser();\n";
 		#endif
 
 	std::cout << "  Enter " << what << ": " ;
@@ -32,14 +39,12 @@ int inputFromUser(int value, std::string what)
 	if (value != 0 && value != 1) 
 	{
 		std::cout << "  Invalid Input" ;
-		std::cout << "\n" ;
-		std::cout << "\n" ;
-		return value;
 	}
+
+		#ifdef DEBUG
+			std::cout << "\n  Exited inputFromUser();";
+		#endif
 	
-	else
-	{
-		return value;
-	}
-		
+	std::cout << "\n" ;
+	return value;		
 }

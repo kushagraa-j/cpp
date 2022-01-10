@@ -17,16 +17,14 @@ void faceOfCoinInWords(int num){
 	}
 
 		#ifdef DEBUG
-			std::cout << "  faceOfCoinInWords() ended;\n" ;
+			std::cout << "  Exited faceOfCoinInWords();\n" ;
 		#endif
 }
 
 void result(int faceOfCoin , int userChoice)
 {
-	std::cout << "\n" ;
-
 		#ifdef DEBUG
-			std::cout << "  Entered result();\n" ;
+			std::cout << "  Entered result();\n\n" ;
 		#endif
 
 	
@@ -44,7 +42,7 @@ void result(int faceOfCoin , int userChoice)
 
 
 		#ifdef DEBUG
-			std::cout << "\n  result() ended;" ;
+			std::cout << "\n\n  Exited result();\n" ;
 		#endif
 
 	std::cout << "\n" ;
