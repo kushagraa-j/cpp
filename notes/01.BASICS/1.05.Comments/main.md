@@ -90,7 +90,7 @@ cost = quantity * 2 * storePrice;
 ### Decribe what (BAD comments)
 
 ```cpp
-// range = 0;	// We set the range to 0
+range = 0;	// We set the range to 0
 ```
 
 ```cpp
