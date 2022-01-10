@@ -37,7 +37,7 @@ Two variables of the same type can be defined together,
 int a,b;
 ```
 
-## Data types
+## General data types
 
 In the last example we saw a integer variable, but we have more data types in cpp.
 A data type (more commonly just called a type) tells the compiler what type of value (e.g. a number, a letter, text, etc…) the variable will store.
@@ -48,3 +48,5 @@ letter = char
 text = string
 number = int, double, float
 ```
+
+We will talk more about data types later.

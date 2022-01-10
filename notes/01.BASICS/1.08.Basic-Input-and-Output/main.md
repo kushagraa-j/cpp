@@ -71,3 +71,8 @@ OUTPUT:
 Enter a number:99
 You entered 99
 ```
+
+## For advanced users
+
+std:cerr is used to handle error stream, which is different from input and output.
+Read more here: [link](https://en.cppreference.com/w/cpp/io/cerr) 
