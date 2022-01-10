@@ -32,13 +32,15 @@ Most IDE's set tabwidth to 4, and i recommend it too.
 ```cpp
 int main() {
 	// Recommended by Google C++ style guide
-}```
+}
+```
 
 ```cpp
 int main() 
 {
 	// I personally prefer this style, as it enhances readability
-}```
+}
+```
 
 ## Lines 
 
