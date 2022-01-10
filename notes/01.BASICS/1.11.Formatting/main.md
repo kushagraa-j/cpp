@@ -15,7 +15,8 @@ std::cout               <<            "Hello world!";
 		std::cout << 		"Hello world!";
 
 		std::cout
-			<< "Hello world!";```
+			<< "Hello world!";
+```
 
 All of these statments do the same task, output "Hello world", but the first statement makes sense as it does not hav unnecessary spaces.
 
