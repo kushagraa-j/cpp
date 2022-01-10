@@ -1,6 +1,6 @@
 # Basic formatting and spacing
 
-Um, this is a little subjective topic, so be free to NOT agree with me.
+Um, this is a little subjective topic, so feel free to NOT agree with me.
 C++ ignores all the whitespaces and free lines, it comes down to the programmer on how he/she chooses 
 to format his/her code.
 
