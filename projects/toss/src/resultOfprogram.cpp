@@ -42,7 +42,7 @@ void result(int faceOfCoin , int userChoice)
 
 
 		#ifdef DEBUG
-			std::cout << "\n\n  Exited result();\n" ;
+			std::cout << "\n\n  Exited result();" ;
 		#endif
 
 	std::cout << "\n" ;

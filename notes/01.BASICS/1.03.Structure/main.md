@@ -3,8 +3,8 @@
 In this part we will talk about the basic structure of a c++ program, now that you know what is a statement and a function.
 
 ```cpp
-#include<iostream>              // include files from library
-#include<my.h>                  // include local personal files
+#include<iostream>              // include headers from library
+#include<my.h>                  // include local personal headers
 
 int yourfuncname(int x){        // your custom function with a argument x
 
@@ -17,6 +17,8 @@ int yourfuncname(int x){        // your custom function with a argument x
 int main{ 
 
 	\\ statments
+	\\ some more statements
+
 	return 0;
 
 }

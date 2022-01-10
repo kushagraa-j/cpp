@@ -35,3 +35,64 @@ Wrapping single-line comments inside a multi-line comment is okay.
 
 Comment your code liberally, and write your comments as if speaking to 
 someone who has no idea what the code does and for the future you. Don’t assume you’ll remember why you made specific choices.
+
+## Proper uses
+
+Yeah so, what is proper use of comments? I did mention above about how we should use commments, but I will use some examples to demonstrate
+it to you. 
+
+Generally there are 3-4 kinds of commenting.
+
+### Describe what
+
+```cpp
+// This program calculates the student's final grade based on his test and homework scores.
+```
+
+```cpp
+// This function uses Newton's method to approximate the root of a given equation.
+```
+
+```cpp
+This function takes input from user and then returns the value.
+```
+
+### Describe how
+
+```cpp
+/* To calculate the final grade, we sum all the weighted midterm and homework scores
+    and then divide by the number of scores to assign a percentage, which is
+        used to calculate a letter grade. */
+```
+
+```cpp
+To find the roots of these quadratic equations, we use the quadratic formula (Sridharacharya Formula).
+```
+
+```cpp
+To generate a random number, we hav used the stdlib and used the rand() function
+```
+
+### Describe why
+
+```cpp
+// We need to multiply quantity by 2 here because they are bought in pairs
+cost = quantity * 2 * storePrice;
+```
+
+```cpp
+// We're going to use Newton's method to find the root of a number because
+// there is no deterministic way to solve these equations.
+```
+
+### Decribe what (BAD comments)
+
+```cpp
+range = 0;	// We set the range to 0
+```
+
+```cpp
+int add( int x , int y)
+{
+	return x + y;	// returned the sum of arguments
+}

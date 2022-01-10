@@ -12,6 +12,7 @@ Example:
 - I want to make a program which adds two numbers
 - I want to make a program to calculate my BMI
 - I want to make a program to provide me the map to heaven
+- I want to make a program that can calculate my average marks
 
 ## How
 
@@ -36,7 +37,7 @@ Coding is just a way of expressing yourself in a language. What really matters i
 
 Once you are thorough about what and how are you are going to code. Open up your editor, start coding and express yourself.
 A programming language is just like another language. It has a certain syntax as we have grammar and spellings in a normal language. 
-Coding is not as hard as it may seem. Enjoy the process, do it as computer were a person and you were talking to him.
+Coding is not as hard as it may seem. Enjoy the process, do it as computer were a person and you were talking to him/her.
 
 ## Compiling
 
@@ -49,7 +50,7 @@ A linker is the piece of software which brings together all the required files m
 The linker also is capable of linking library files. A library file is a collection of precompiled code that has been 
 “packaged up” for reuse in other programs.
 
-When you are creating a dish, do you create salt, vegetables and spices all by yourself? or you buy them from the market?
+When you are creating a food dish, do you create salt, vegetables and spices all by yourself? or you buy them from the market?
 Assume standard library as a market where you get the pre-written code, but in this case you dont have to pay.
 
 ## Test

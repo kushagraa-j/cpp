@@ -1,6 +1,6 @@
 #ifndef debug
 #define debug
 
-#define NODEBUG
+#define DEBUG
 
 #endif
